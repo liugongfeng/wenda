@@ -6,7 +6,6 @@ import java.util.*;
 public class Main {
 
 
-
     public static void demoString() {
         String str = "hello world";
         System.out.println(str.indexOf('e'));
@@ -60,7 +59,7 @@ public class Main {
     public static void demoMapTable() {
         Map<String, String> map = new HashMap<>();
         for (int i = 0; i < 4; i++) {
-            map.put(String.valueOf(i), String.valueOf(i*i));
+            map.put(String.valueOf(i), String.valueOf(i * i));
 
         }
 
@@ -102,7 +101,7 @@ public class Main {
         System.out.println(random.nextInt(100));
         System.out.println(random.nextFloat());
 
-        List<Integer> arr = Arrays.asList(new Integer[] {1,2,3,4,5});
+        List<Integer> arr = Arrays.asList(new Integer[]{1, 2, 3, 4, 5});
         Collections.shuffle(arr);
         System.out.println(arr);
 
@@ -111,7 +110,6 @@ public class Main {
 
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         System.out.println(df.format(date));
-
 
 
     }
@@ -125,9 +123,6 @@ public class Main {
 //        demoSet();
 //        demoOO();
     }
-
-
-
 
 
 }
